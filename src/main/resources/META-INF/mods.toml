@@ -1,0 +1,13 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+issueTrackerURL = ""
+minVersion="0.8"
+license="MIT"
+
+[[mods]]
+modId="valkyrienskiesstoragescompatmod"
+version="1.0.0"
+displayName="Valkyrien Skies Storages Compat Mod"
+authors = ["Zoritism, Tri0de", "Rubydesic"]
+description="This mod fixes duplication issues in Valkyrien Skies and interface bug for Thermal Series"
+logoFile = "icon.png"
