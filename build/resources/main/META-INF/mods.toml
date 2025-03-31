@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+issueTrackerURL = ""
+minVersion="0.8"
+license="MIT"
+
+[[mods]]
+modId="valkyrienskiesstoragescompatmod"
+version="1.0.1"
+displayName="Valkyrien Skies Storages Compatibility"
+authors=["Zoritism"]
+description="This mod fixes duplication issues in Valkyrien Skies and interface bug for Thermal Series"
+logoFile="icon.png"
+
+[[dependencies.valkyrienskiesstoragescompatmod]]
+modId="vs_eureka"
+mandatory=true
+versionRange="[1.0.0,)"
+ordering = "AFTER"
+side="BOTH"
+
+[[dependencies.valkyrienskiesstoragescompatmod]]
+modId = "valkyrienskies"
+mandatory = true
+versionRange="[1.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
